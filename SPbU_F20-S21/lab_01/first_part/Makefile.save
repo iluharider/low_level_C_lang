@@ -1,5 +1,0 @@
-all: lab1
-bin/main.o: src/main.c include/names_algorithm.h include/names_util.h include/names_io.h
-	gcc -c src/main.c -o bin/main.o
-bin/main.o: src/main.c include/names_algorithm.h
-	gcc -c src/main.c -o bin/main.o
