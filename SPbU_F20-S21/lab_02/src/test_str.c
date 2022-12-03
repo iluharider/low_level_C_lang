@@ -47,11 +47,11 @@ void my_strlen_autotest() {
 }
 
 void my_strcmp_autotest() {
-	char *name = "abc";
-	char *name2 = "ra";
+	const char *name = "abc";
+	const char *name2 = "ra";
 	assert(my_strcmp(name, name2) < 0);
-	char *zero = "";
-	char *zero2 = "";
+	const char *zero = "";
+	const char *zero2 = "";
 	assert(my_strcmp(zero, zero2) == 0);
 }
 
