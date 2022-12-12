@@ -1,5 +1,4 @@
 all: lab_02
-
 obj/:
 	mkdir obj/
 obj/test.o: src/test.c include/test_str.h 
